@@ -1,33 +1,38 @@
 # Hello Database
 
 --------------------------------------------------------------------------------
+Experimenting with relational and SQL database for Api Pahlawan.
 
-## Requirements
+## Database Schema Pahlawan Nasional
 
-Start experimenting with database like SQL. Example: MySQL, PostgreSQL, SQLite
+### User
 
-### Input
+field     | type    | size
+----------|---------|-----
+id        | integer | -
+firstname | string  | 20
+lastname  | string  | 100
+die       | string  | 50
+area      | string  | 50
+senjata   | string  | 20
 
-- Various data you already have in your program
+Examples:
 
-### Process
+```
+id: 1
+firstName: "Sultan"
+lastName : "Hasanuddin"
+die      : "39"
+area     : "Makassar"
+senjata  : "Badik"
+```
 
-- Modeling those data to conform with better schema in SQL database
 
-### Output
-
-- Better data model
-
---------------------------------------------------------------------------------
-
-## Level 0
-
-- Install one or more database management system (DBMS)
-- Try to connect those via your terminal
-
---------------------------------------------------------------------------------
-
-## Level 1
-
-- Prepare your program to be used with the new data source
-- Connect your program with that data source
+```
+id: 2
+firstName: ""
+lastName: ""
+die: ""
+area: ""
+senjata: ""
+```
