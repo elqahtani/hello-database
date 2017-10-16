@@ -18,6 +18,22 @@ senjata   | string  | 20
 
 Examples:
 
+#### Examples in Table
+
+id | firstname  | lastName    | die| area       | senjata
+---|------------|-------------|----|------------|---------
+0  | Sultan     | Hasanuddin  | 39 | Makassar   | Badik
+1  | Pangeran   | Diponegoro  | 70 | Yogyakarta | Keris
+2  | Cut Nyak   | Dhien       | 60 | Aceh       | Rencong
+3  | Tuanku     | Imam Bonjol | 92 | Padang     | Meriam
+4  | Jendral    | Sudirman    | 34 | Purbalingga| Senapan Api
+5  | Bung       | Tomo        | 61 | Surabaya   | Bambu Runcing
+6  | Raden      | Patah       | 63 | Demak      | Keris
+
+--------------------------------------------------------------------------------
+
+
+
 ```
 id: 1
 firstName: "Sultan"
